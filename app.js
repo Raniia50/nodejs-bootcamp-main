@@ -10,10 +10,10 @@ app.get("/hello", function (req, res) {
 });
 
 app.get("/name", function (req, res) {
-	res.send("Yarob");
+	res.send("Rania :)");
 });
 
-// step: 3
+// step: 3 
 app.listen(8000, function () {
 	console.log("listening");
 });
